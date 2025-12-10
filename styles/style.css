@@ -177,4 +177,27 @@
   font-size: 20px;
   font-weight: 600;
   letter-spacing: 4px;
+  margin: 8px 0px;
+}
+.products{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 8px;
+}
+.products-div{
+  height: auto;
+  width: 245px;
+}
+.products img{
+  width: 245px;
+}
+.products-div h5{
+  color: #595959;
+  font-size: 16px;
+  padding: 5px 0px 3px 3px;
+}
+.products-div h6{
+  font-size: 18px;
+  padding: 0px 3px;
 }
