@@ -125,6 +125,7 @@
   gap: 25px;
 }
 .coats{
+  background: #000;
   background-image: url(../images/models/models-6.jpg);
   background-size: cover;
   width: 400px;
@@ -164,4 +165,16 @@
 }
 .grid div{
   display: flex;
+}
+.products-catelog{
+  margin: 20px 0px;
+}
+.product-intro{
+  text-align: center;
+  height: 40px;
+}
+.product-intro span{
+  font-size: 20px;
+  font-weight: 600;
+  letter-spacing: 4px;
 }
