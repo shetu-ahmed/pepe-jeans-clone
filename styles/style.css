@@ -201,3 +201,41 @@
   font-size: 18px;
   padding: 0px 3px;
 }
+.adv-sec{
+  display: flex;
+  margin: 40px 0px;
+}
+.adv-sec .image-container{
+  height: 600px;
+  width: 950px;
+  background-image: url(../images/adv-img.jpg);
+  background-size: cover;
+}
+.adv-sec .text-container{
+  height: 600px;
+  width: 600px;
+  margin-left: 20px;
+  background-color: #30382B;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.text-container img{
+  width: 380px;
+}
+.text-container p{
+  color: #fff;
+  font-size: 20px;
+}
+.shop-gift{
+  margin: 15px 0px;
+  display: flex;
+  align-items: center;
+}
+.shop-gift h5{
+  color: #fff;
+  text-transform: uppercase;
+  font-size: 16px;
+  font-weight: 500;
+}
